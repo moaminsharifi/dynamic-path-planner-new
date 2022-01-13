@@ -91,11 +91,18 @@ catkin_make or catkin build
 ### Make excutable obstacles files
 ```
 cd ~/<ROS_Workspace>/src/dynamic-path-planner/scripts
-chmod +x obstacle1.py obstacle2.py obstacle2.py
+chmod +x obstacle1.py obstacle2.py obstacle3.py
 cd ~/<ROS_Workspace>
 source devel/setup.bash
 roslaunch dynamic-path-planner planner.launch
 ```
+
+## Run Package
+```
+cd ~/<ROS_Workspace>/src/dynamic-path-planner
+python3 main.py
+```
+
 - This would launch a gazebo world where the turtlebot-3 would reach its destination using the path planned via the 
 dynamic programming algorithm.
 
