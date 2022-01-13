@@ -70,13 +70,12 @@ Gazebo on your system.
 - Clone this repository in your ROS workspace
 ```
 cd ~/<ROS_Workspace>/src/
-git clone https://github.com/urastogi885/dynamic-path-planner
+git clone https://github.com/bigmpc/dynamic-path-planner.git
 
 
 # other needed repos for build
 
 git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
-
 
 git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
 
