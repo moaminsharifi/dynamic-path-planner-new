@@ -158,7 +158,10 @@ def convertor(wayp, size=10):
 if __name__ == '__main__':
     # load state_action pair
     ros_root = rospkg.RosPack()
-    state_action = np.load(ros_root.get_path('dynamic-path-planner') + '/o1.npy', allow_pickle=True)
+    import pickle
+    with open(ros_root.get_path('dynamic-path-planner') +'/o1-pv2.pickle', 'rb') as pickle_file:     state_action = pickle.load(pickle_file);
+    
+    # state_action = np.load(ros_root.get_path('dynamic-path-planner') + '/o1.npy', allow_pickle=True)
 
     # get coordinates and angles
     waypoints, angles = convertor(state_action)
