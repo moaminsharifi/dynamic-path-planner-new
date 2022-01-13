@@ -71,6 +71,17 @@ Gazebo on your system.
 ```
 cd ~/<ROS_Workspace>/src/
 git clone https://github.com/urastogi885/dynamic-path-planner
+
+
+# other needed repos for build
+
+git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
+
+
+git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+
+git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+
 ```
 - You can also extract the compressed project file in the ```src``` folder of your ROS workspace.
 - Open the terminal, build the ROS package, and run the launch file:
@@ -88,3 +99,26 @@ roslaunch dynamic-path-planner planner.launch
 ```
 - This would launch a gazebo world where the turtlebot-3 would reach its destination using the path planned via the 
 dynamic programming algorithm.
+
+other links:
+https://github.com/urastogi885/dynamic-path-planner/
+
+http://wiki.ros.org/melodic/Installation/Ubuntu
+
+http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install
+
+https://programmer.help/blogs/ubuntu-18.04-lts-melodic-ros-configuration-turtlebot-3-running-gazebo-simulation.html
+
+
+https://stackoverflow.com/questions/63448467/installing-opencv-fails-because-it-cannot-find-skbuild
+
+
+https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/
+
+
+http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment
+
+https://www.clearpathrobotics.com/assets/guides/melodic/ros/ROS%20Navigation%20Basics.html
+
+
+about:blank
