@@ -77,6 +77,12 @@ git clone https://github.com/urastogi885/dynamic-path-planner
 ```
 cd ~/<ROS_Workspace>
 catkin_make or catkin build
+```
+### Make excutable obstacles files
+```
+cd ~/<ROS_Workspace>/src/dynamic-path-planner/scripts
+chmod +x obstacle1.py obstacle2.py obstacle2.py
+cd ~/<ROS_Workspace>
 source devel/setup.bash
 roslaunch dynamic-path-planner planner.launch
 ```
